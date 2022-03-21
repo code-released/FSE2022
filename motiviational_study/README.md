@@ -74,7 +74,7 @@ python apk_explore.py --apk_folder ${APK_FOLDER} \
 
 ## Categorizing GUI rendering state
 <p align="center">
-<img src="figures/partially_example.png" width="70%"/> 
+<img src="figures/partially_example.png" width="60%"/> 
 </p>
 
 * **Fully Rendered State.** A fully rendered state represents a complete transition to the GUI with all resources loaded.
@@ -140,4 +140,4 @@ def draw_efficiency_of_throttle_barplot():
 
 
 ## Why makes throttle adaptive?
-> Taken in this sense, it is worthwhile developing a new effective and efficient method to dynamically adjust the throttle during testing.
+> These findings confirm the importance of throttle setting to automated testing, and motivate us to design an approach for balancing effectiveness and efficiency. Taken in this sense, it is worthwhile developing a new effective and efficient method to dynamically adjust the throttle during testing.

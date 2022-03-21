@@ -9,7 +9,7 @@ To achieve our study goals, we formulate the following three research questions:
 
 ## RQ1: Performance of Model
 <p align="center">
-<img src="figures/model_performance.png" width="40%"/> 
+<img src="../figures/model_performance.png" width="40%"/> 
 </p>
 
 1. We set up 11 baseline methods, including machine learning-based and deep learning-based, that are widely used in image classification tasks as the baselines to compare with our model. 
@@ -19,7 +19,7 @@ To achieve our study goals, we formulate the following three research questions:
 
 ## RQ2: Performance of Throttledroid
 <p align="center">
-<img src="figures/rq2.png" width="95%"/> 
+<img src="../figures/rq2.png" width="95%"/> 
 </p>
 
 1. We set up 6 throttling methods and 1 ablation study as our baselines to compare with our Throttledroid.
@@ -30,7 +30,7 @@ As a result, much of the time budget will be saved in hundreds or thousands of s
 
 ## RQ3: Usefulness of Throttledroid
 <p align="center">
-<img src="figures/rq3.png" width="50%"/> 
+<img src="../figures/rq3.png" width="50%"/> 
 </p>
 
 1. To demonstrate how our Throttledroid can affect real-world testing environments, we integrated our approach into the mature automated testing tool Droidbot, namely Droidbot+Ours. In detail, Droidbot+Ours is adaptive to GUI rendering, moving to the next event as soon as GUI rendering is complete.

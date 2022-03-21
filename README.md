@@ -40,7 +40,7 @@ To better understand the issues of automated testing tools with throttling, we c
 
 ### Categorizing GUI rendering state
 <p align="center">
-<img src="./motiviational_study/figures/partially_example.png" width="60%"/> 
+<img src="figures/partially_example.png" width="60%"/> 
 </p>
 
 
@@ -58,7 +58,7 @@ By conducting a pilot study on Monkey, we categorize four types of GUI rendering
 
 ### Are partially rendered states common in testing tools?
 <p align="center">
-<img src="./motiviational_study/figures/stacked_percent.png" width="70%"/> 
+<img src="figures/stacked_percent.png" width="70%"/> 
 </p>
 <p align="center">Figure: Distribution of rendering states captured by Monkey, Ape, and Humanoid.<p align="center">
 
@@ -67,7 +67,7 @@ By analyzing three commonly-used testing tools, we find that they all encounter 
 
 ### How to address partially rendered states?
 <p align="center">
-<img src="./motiviational_study/figures/throttle_affect.png" width="70%"/> 
+<img src="figures/throttle_affect.png" width="70%"/> 
 </p>
 <p align="center">Figure: Number of GUIs and activity coverage in different throttle settings of Ape.<p align="center">
 
@@ -79,7 +79,7 @@ These findings confirm the importance of throttle setting to automated testing, 
 
 ## Approach
 <p align="center">
-<img src="./approach/figures/overview.png" width="60%"/> 
+<img src="figures/overview.png" width="60%"/> 
 </p>
 <p align="center">Figure: The overview of Throttledroid.<p align="center">
 
@@ -91,7 +91,7 @@ Based on the GUI rendering inference, we schedule the testing events, which will
 
 ### Data Preparation
 <p align="center">
-<img src="./approach/figures/dataset.png" width="80%"/> 
+<img src="figures/dataset.png" width="80%"/> 
 </p>
 <p align="center">Figure: Pipeline for automated data collection.<p align="center">
 
@@ -103,7 +103,7 @@ We adopt an implementation of MobileNetV2, which distills the best practices in 
 
 ### Model Deployment
 <p align="center">
-<img src="./approach/figures/implementation.png" width="60%"/> 
+<img src="figures/implementation.png" width="60%"/> 
 </p>
 <p align="center">Figure: Overview of model deployment.</p>
 To make the model efficiently provide feedback of GUI rendering state to the automated testing tool, synchronization of the GUI and the testing tool is needed.
@@ -131,14 +131,14 @@ For RQ3, we integrate Throttledroid with DroidBot as an enhanced automated testi
 
 ### RQ1: Performance of Model
 <p align="center">
-<img src="./evaluation/figures/model_performance.png" width="40%"/> 
+<img src="figures/model_performance.png" width="40%"/> 
 </p>
 
 Our model achieves 99.8% accuracy which is much higher than that of baselines, e.g., 31.8% boost compared with the best machine learning baseline (SIFT-SVM). In addition, our model takes on average 43.02ms per GUI inference, representing the ability of our model to accurately and efficiently discriminate the GUI rendering state.
 
 ### RQ2: Performance of Throttledroid
 <p align="center">
-<img src="./evaluation/figures/rq2.png" width="95%"/> 
+<img src="figures/rq2.png" width="95%"/> 
 </p>
 
 
@@ -147,7 +147,7 @@ As a result, much of the time budget will be saved in hundreds or thousands of s
 
 ### RQ3: Usefulness of Throttledroid
 <p align="center">
-<img src="./evaluation/figures/rq3.png" width="50%"/> 
+<img src="figures/rq3.png" width="50%"/> 
 </p>
 
 Droidbot+Ours achieves a median activity coverage of 43.14% across 32 Android apps, which is 6.95% higher even compared with the best baseline (e.g., 36.19% in Throttle 200ms). In addition, Droidbot+Ours explores 3,207 GUI states, and 88.81% are fully rendered, indicating the effectiveness and efficiency of our approach in covering most of the activities and fully rendered GUIs in real-world testing environments.

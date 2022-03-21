@@ -101,7 +101,7 @@ python analyse_screenshot.py
 
 ## Results
 <p align="center">
-<img src="../figures/rq3.png" width="50%"/> 
+<img src="../../figures/rq3.png" width="50%"/> 
 </p>
 Droidbot+Ours achieves a median activity coverage of 43.14% across 32 Android apps, which is 6.95% higher even compared with the best baseline (e.g., 36.19% in Throttle 200ms). In addition, Droidbot+Ours explores 3,207 GUI states, and 88.81% are fully rendered, indicating the effectiveness and efficiency of our approach in covering most of the activities and fully rendered GUIs in real-world testing environments.
 

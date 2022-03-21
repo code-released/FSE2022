@@ -102,7 +102,7 @@ python bug_detection.py --seed_dir ${SEED_DIR} \
 
 ## Results
 <p align="center">
-<img src="../figures/rq2.png" width="95%"/> 
+<img src="../../figures/rq2.png" width="95%"/> 
 </p>
 Our approach can detect most of the bugs (89%) in less time (15.16 seconds), e.g., 23% more bugs at similar run-time as 400ms setting, while 27% more efficient than 1000ms setting with the same bug detection rate. In addition, leveraging a real-time GUI rendering monitor speeds up the testing process than that of an asynchronous monitor (Ours Async), saving 1.52 seconds for 10.6 steps on average.
 As a result, much of the time budget will be saved in hundreds or thousands of steps for long-term testing.

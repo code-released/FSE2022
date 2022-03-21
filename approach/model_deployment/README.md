@@ -1,6 +1,6 @@
 # Model Deployment
 <p align="center">
-<img src="../figures/implementation.png" width="80%"/> 
+<img src="../../figures/implementation.png" width="80%"/> 
 </p>
 <p align="center">Figure: Overview of model deployment.</p>
 

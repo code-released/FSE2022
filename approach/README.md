@@ -1,6 +1,6 @@
 # Approach
 <p align="center">
-<img src="figures/overview.png" width="60%"/> 
+<img src="../figures/overview.png" width="60%"/> 
 </p>
 <p align="center">Figure: The overview of Throttledroid.<p align="center">
 

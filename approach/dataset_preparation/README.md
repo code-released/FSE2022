@@ -1,6 +1,6 @@
 # Data Preparation
 <p align="center">
-<img src="../figures/dataset.png" width="80%"/> 
+<img src="../../figures/dataset.png" width="80%"/> 
 </p>
 <p align="center">Figure: Pipeline for automated data collection.<p align="center">
 

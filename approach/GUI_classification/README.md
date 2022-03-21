@@ -1,6 +1,6 @@
 # GUI Rendering State Classification
 <p align="center">
-<img src="../figures/mobilenet.svg" width="80%"/> 
+<img src="../../figures/mobilenet.svg" width="80%"/> 
 </p>
 <p align="center">Figure: MobileNetV2 architecture.<p align="center">
 

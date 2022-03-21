@@ -74,7 +74,7 @@ python apk_explore.py --apk_folder ${APK_FOLDER} \
 
 ## Categorizing GUI rendering state
 <p align="center">
-<img src="figures/partially_example.png" width="60%"/> 
+<img src="../figures/partially_example.png" width="60%"/> 
 </p>
 
 * **Fully Rendered State.** A fully rendered state represents a complete transition to the GUI with all resources loaded.
@@ -90,7 +90,7 @@ It explicitly indicates the process or rendering is in progress.
 
 ## Are partially rendered states common in testing tools?
 <p align="center">
-<img src="figures/stacked_percent.png" width="70%"/> 
+<img src="../figures/stacked_percent.png" width="70%"/> 
 </p>
 
 1. Analysis of the occupation of partially rendered issues in Automated Testing Tools, including Monkey, Ape, Humanoid with throttle 200ms
@@ -114,7 +114,7 @@ def draw_automated_testing_tools_barplot():
 
 ## How to address partially rendered states?
 <p align="center">
-<img src="figures/throttle_affect.png" width="70%"/> 
+<img src="../figures/throttle_affect.png" width="70%"/> 
 </p>
 
 1. The simplest way is to set a longer throttle interval, extending the inter-event time for transiting or loading.

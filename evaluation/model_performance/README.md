@@ -35,7 +35,7 @@ We also experimented with off-the-shelf feature extraction methods used in deep 
 
 ## Results
 <p align="center">
-<img src="../figures/model_performance.png" width="50%"/> 
+<img src="../figures/model_performance.png" width="40%"/> 
 </p>
 Our model achieves 99.8% accuracy which is much higher than that of baselines, e.g., 31.8% boost compared with the best machine learning baseline (SIFT-SVM). In addition, our model takes on average 43.02ms per GUI inference, representing the ability of our model to accurately and efficiently discriminate the GUI rendering state.
 

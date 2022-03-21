@@ -2,7 +2,7 @@
 <p align="center">
 <img src="figures/overview.png" width="60%"/> 
 </p>
-<p align="center">The overview of Throttledroid.<p align="center">
+<p align="center">Figure: The overview of Throttledroid.<p align="center">
 
 This paper proposes a simple but effective approach Throttledroid to adaptively adjust the throttle base on GUI screenshots.
 Given that automated testing tools test on the device, we synchronously stream the GUI screenshot capturing, and detect its current rendering state.

@@ -2,7 +2,7 @@
 <p align="center">
 <img src="../figures/dataset.png" width="80%"/> 
 </p>
-<p align="center">Pipeline for automated data collection.<p align="center">
+<p align="center">Figure: Pipeline for automated data collection.<p align="center">
 
 The goal of this phase is to automatically collect partially rendered GUIs and fully rendered GUIs by leveraging GUI transiting screencasts, as shown in Figure.
 

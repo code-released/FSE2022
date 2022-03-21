@@ -2,7 +2,7 @@
 <p align="center">
 <img src="../figures/mobilenet.svg" width="80%"/> 
 </p>
-<p align="center">MobileNetV2 architecture.<p align="center">
+<p align="center">Figure: MobileNetV2 architecture.<p align="center">
 
 In this phase, we identify whether the GUI is fully rendered which allows testing tools to execute the next event; or whether the GUI is partially rendered which waits until the rendering is complete.
 

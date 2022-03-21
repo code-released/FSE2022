@@ -102,6 +102,10 @@ We leverage image processing techniques to extract frames from GUI transiting sc
 We adopt an implementation of MobileNetV2, which distills the best practices in convolutional network design into a simple architecture to identify whether the GUI is fully rendered which allows testing tools to execute the next event; or whether the GUI is partially rendered which waits until the rendering is complete.
 
 ### Model Deployment
+<p align="center">
+<img src="./approach/figures/implementation.png" width="60%"/> 
+</p>
+<p align="center">Figure: Overview of model deployment.</p>
 To make the model efficiently provide feedback of GUI rendering state to the automated testing tool, synchronization of the GUI and the testing tool is needed.
 Therefore, we develop a socket-based smartphone test farm using OpenSTF to stream the real time GUI screenshot.
 
